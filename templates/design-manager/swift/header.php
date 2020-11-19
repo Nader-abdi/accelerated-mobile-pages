@@ -21,7 +21,7 @@ if( !ampforwp_levelup_compatibility('hf_builder_head') ){
     <?php do_action('ampforwp_header_top_design4'); ?>
     <input type="checkbox" id="offcanvas-menu" on="change:AMP.setState({ offcanvas_menu: (event.checked ? true : false) })"  [checked] = "offcanvas_menu"  class="tg" />
     <div class="hamb-mnu">
-        <aside class="m-ctr">
+        <aside class="m-ctr fsc">
             <div class="m-scrl">
                 <div class="menu-heading clearfix">
                     <label for="offcanvas-menu" class="c-btn"></label>
